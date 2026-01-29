@@ -1,0 +1,7 @@
+.bts{
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 160px;
+}
