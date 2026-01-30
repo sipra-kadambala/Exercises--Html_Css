@@ -1,0 +1,11 @@
+.name-box{
+  display: block;
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+
+.email-box{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
