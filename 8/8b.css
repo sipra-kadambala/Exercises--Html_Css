@@ -1,0 +1,10 @@
+.para{
+  width:230px;
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.yes-box{
+  margin-right: 0;
+}
