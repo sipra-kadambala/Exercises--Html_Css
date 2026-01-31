@@ -1,0 +1,23 @@
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.para1{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.para2{
+  color: rgb(207, 201, 201);
+}
+
+.card{
+  background-color: rgb(33, 33, 33);
+  width:360px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
