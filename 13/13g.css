@@ -1,0 +1,74 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+}
+
+
+
+
+
+.profile-pic{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+div {
+  font-family: Arial;
+}
+.tweet-column {
+  flex: 1;
+}
+
+.first-box{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.small{
+  color: #969696;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.second-box{
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+
+.third-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+  border-radius: 15px;
+  width: 350px;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.grey-box{
+  height:90px;
+  width: 90px;
+  background-color: rgb(220,220,220);
+}
+.youtube-info{
+  flex: 1;
+  margin-left: 10px;
+}
+
+.youtube{
+  color: rgb(111,111,111);
+  margin-bottom: 3px;
+}
+.title-box{
+  line-height: 22px;
+}

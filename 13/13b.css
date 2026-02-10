@@ -1,0 +1,25 @@
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.normal{
+  background-color: lightpink;
+  width: 100px;
+}
+
+.nestedflex{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2{
+  background-color: black;
+  color: white;
+}
+
+.nestedflex2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
