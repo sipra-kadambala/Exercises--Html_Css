@@ -1,0 +1,7 @@
+.bottom-box{
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+}
