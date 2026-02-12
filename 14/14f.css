@@ -1,0 +1,71 @@
+body{
+  height: 3000px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+div{
+  font-family: Arial;
+}
+
+
+.sidebar{
+  background-color: rgb(33, 33, 33);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+}
+
+.pic{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.sidebar2{
+  background-color: rgb(55, 55, 55);
+  color: white;
+  margin-left: 62px;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.first-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add-box{
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.second-line{
+  margin-left: 10px;
+}
+
+.trend{
+  color: rgb(150, 150, 150);
+  font-size: 11px;
+  margin-top: 10px;
+}
