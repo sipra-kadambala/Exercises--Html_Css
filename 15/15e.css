@@ -1,0 +1,27 @@
+body{
+  height: 3000px;
+}
+
+.pic{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.outer{
+  position: relative;
+  display: inline-block;
+}
+
+.inner{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top:10px;
+  right: 0;
+  font-family: Arial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  
+}

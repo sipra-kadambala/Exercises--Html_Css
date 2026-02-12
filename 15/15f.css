@@ -1,0 +1,49 @@
+body{
+  height: 3000px;
+}
+
+.pic{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.outer{
+  position: relative;
+  display: inline-block;
+}
+
+.inner{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top:10px;
+  right: 0;
+  font-family: Arial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px; 
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255,255,255,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,36 @@
+body{
+  height: 3000px;
+}
+
+div{
+  font-family: Arial;
+}
+
+.bottom-right{
+  background-color: rgb(140,140,140);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 180px;
+  width: 320px;
+}
+
+
+.outside{
+  position: relative;
+}
+
+.close{
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
